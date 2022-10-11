@@ -112,15 +112,20 @@ nav section{
         filter: brightness(40%) invert(1);
     }
 }
-/* .colorMenu{
+.colorMenu{
+    height: auto;
+    width: 100px;
+    position: fixed;
+    top: 10%;
+    left: 10px;
 
-} */
+}
 .colorMenu .colorButton{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
-    border: 0px solid black;
+    border: 1px solid black;
 }
 #red{
     background-color: #D0312D;

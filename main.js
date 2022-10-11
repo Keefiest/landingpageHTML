@@ -36,16 +36,16 @@ var green = document.getElementById('green');
 green.addEventListener('click', () =>{
   r.style.setProperty('--mainColor', "#2CB043")
 })
-function makeRed_set() {
-  r.style.setProperty('--mainColor', '#D0312D');
-}
-function makeYellow_set() {
-  r.style.setProperty('--mainColor', '#F9EO76');
-}
-function makeBlue_set() {
-  r.style.setProperty('--mainColor', '#4261e9');
-}
-function makeGreen_set() {
-  r.style.setProperty('--mainColor', 'green');
-}
+
+var yellow = document.getElementById('yellow');
+
+yellow.addEventListener('click', () =>{
+  r.style.setProperty('--mainColor', "#FFDF00")
+})
+
+var blue = document.getElementById('blue');
+
+blue.addEventListener('click', () =>{
+  r.style.setProperty('--mainColor', "#4261e9")
+})
 
